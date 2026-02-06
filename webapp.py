@@ -16,8 +16,8 @@ warnings.filterwarnings('ignore')
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-# Display Images
-# import Image from pillow to open images
+# import Image from pillow to open images # Display Images
+
 from PIL import Image
 img = Image.open("crop.png")
 # display image using streamlit
@@ -98,4 +98,5 @@ def main():
 ## Running the main function
 if __name__ == '__main__':
     main()
+
 
